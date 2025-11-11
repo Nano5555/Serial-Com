@@ -1,0 +1,14 @@
+[0.012s] Invoking command in '/home/ubuntu/Serial-Com/build/serial-com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/serial-com -- -j16 -l16
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o[0m
+[2.233s] [01m[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:[m[K In member function ‘[01m[Kvoid SerialP::[01;32m[KcmdVelCallback[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.233s] [01m[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:38:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kopen[m[K’ was not declared in this scope; did you mean ‘[01m[Kpopen[m[K’?
+[2.233s]    38 |     int fd = [01;31m[Kopen[m[K("/dev/ttyUSB0")
+[2.233s]       |              [01;31m[K^~~~[m[K
+[2.233s]       |              [32m[Kpopen[m[K
+[2.233s] [01m[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:38:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.234s]    38 |     int [01;35m[Kfd[m[K = open("/dev/ttyUSB0")
+[2.234s]       |         [01;35m[K^~[m[K
+[4.328s] gmake[2]: *** [CMakeFiles/keyboardR_SerialP.dir/build.make:76: CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o] Error 1
+[4.329s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/keyboardR_SerialP.dir/all] Error 2
+[4.329s] gmake: *** [Makefile:146: all] Error 2
+[4.330s] Invoked command in '/home/ubuntu/Serial-Com/build/serial-com' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/serial-com -- -j16 -l16

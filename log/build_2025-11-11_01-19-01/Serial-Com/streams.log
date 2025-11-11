@@ -1,0 +1,19 @@
+[0.012s] Invoking command in '/home/ubuntu/Serial-Com/build/Serial-Com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/Serial-Com -- -j16 -l16
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o[0m
+[6.141s] [100%] [32m[1mLinking CXX executable keyboardR_SerialP[0m
+[6.367s] [100%] Built target keyboardR_SerialP
+[6.377s] Invoked command in '/home/ubuntu/Serial-Com/build/Serial-Com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/Serial-Com -- -j16 -l16
+[6.386s] Invoking command in '/home/ubuntu/Serial-Com/build/Serial-Com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/Serial-Com
+[6.392s] -- Install configuration: ""
+[6.393s] -- Execute custom install script
+[6.393s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/launch/keyboard.launch.py
+[6.393s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/node/keyboardR_SerialP.cpp
+[6.393s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[6.394s]   ament_cmake_symlink_install_programs() can't find
+[6.394s]   '/home/ubuntu/Serial-Com/keyboardR_SerialP.cpp'
+[6.394s] Call Stack (most recent call first):
+[6.394s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_programs)
+[6.394s]   cmake_install.cmake:46 (include)
+[6.394s] 
+[6.394s] [0m
+[6.395s] Invoked command in '/home/ubuntu/Serial-Com/build/Serial-Com' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/Serial-Com

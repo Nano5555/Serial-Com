@@ -1,0 +1,8 @@
+WARNING: Package name "Serial-Com" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[31mCMake Error at CMakeLists.txt:23 (add_executable):
+  The target name "node/keyboardR_SerialP.cpp" is reserved or not valid for
+  certain CMake features, such as generator expressions, and may result in
+  undefined behavior.
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

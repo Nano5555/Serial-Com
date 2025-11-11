@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/launch/keyboard.launch.py
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/node/keyboardR_SerialP.cpp
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/lib/Serial-Com/keyboardR_SerialP.cpp
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/ament_index/resource_index/package_run_dependencies/Serial-Com
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/ament_index/resource_index/parent_prefix_path/Serial-Com
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/local_setup.dsv
+-- Symlinking: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/package.dsv
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/ament_index/resource_index/packages/Serial-Com
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/cmake/Serial-ComConfig.cmake
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/cmake/Serial-ComConfig-version.cmake
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/package.xml

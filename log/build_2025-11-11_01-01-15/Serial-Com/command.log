@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/Serial-Com/build/Serial-Com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Serial-Com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Serial-Com/install/Serial-Com
+Invoked command in '/home/ubuntu/Serial-Com/build/Serial-Com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Serial-Com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Serial-Com/install/Serial-Com
+Invoking command in '/home/ubuntu/Serial-Com/build/Serial-Com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/Serial-Com -- -j16 -l16
+Invoked command in '/home/ubuntu/Serial-Com/build/Serial-Com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/Serial-Com -- -j16 -l16
+Invoking command in '/home/ubuntu/Serial-Com/build/Serial-Com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/Serial-Com
+Invoked command in '/home/ubuntu/Serial-Com/build/Serial-Com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/Serial-Com

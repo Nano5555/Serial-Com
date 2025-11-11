@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(vipnav)
+project(serial-com)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -7,9 +7,10 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+
+#CHANGES
+find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -23,14 +24,18 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+#
+add_executable(keyboardR_SerialP  node/keyboardR_SerialP.cpp)
+ament_target_dependencies(keyboardR_SerialP rclcpp geometry_msgs)
+
 
 install(
-  DIRECTORY config description launch worlds node
+  DIRECTORY launch node
   DESTINATION share/${PROJECT_NAME}
 )
 
-install(PROGRAMS
-  node/waypoint_publisher.py
+install(TARGETS
+  keyboardR_SerialP
   DESTINATION lib/${PROJECT_NAME}
 )
 

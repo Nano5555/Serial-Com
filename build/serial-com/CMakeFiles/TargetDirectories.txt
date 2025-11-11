@@ -1,0 +1,10 @@
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/uninstall.dir
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/serial-com_uninstall.dir
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/keyboardR_SerialP.dir
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/test.dir
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/edit_cache.dir
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/list_install_components.dir
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/install.dir
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/install/local.dir
+/home/ubuntu/Serial-Com/build/serial-com/CMakeFiles/install/strip.dir

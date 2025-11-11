@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.001045] (serial-com) JobQueued: {'identifier': 'serial-com', 'dependencies': OrderedDict()}
+[0.001152] (serial-com) JobStarted: {'identifier': 'serial-com'}
+[0.009099] (serial-com) JobProgress: {'identifier': 'serial-com', 'progress': 'cmake'}
+[0.010748] (serial-com) JobProgress: {'identifier': 'serial-com', 'progress': 'build'}
+[0.011860] (serial-com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Serial-Com/build/serial-com', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/Serial-Com/build/serial-com', 'env': OrderedDict({'VNCDESKTOP': '8afe9df8cb18:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-285-8afe9df8cb18-terminator-5_TIME20706280', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '8afe9df8cb18', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-txJUOUET4a,guid=d0206cd11d342d49ec2e437b69123520', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7741', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-GPOYF3', 'COLCON_PREFIX_PATH': '/home/ubuntu/Serial-Com/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/8afe9df8cb18:@/tmp/.ICE-unix/75,unix/8afe9df8cb18:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-GPOYF3/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Serial-Com/install/serial-com:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:3cffd6fd-7911-4382-a02f-66a7c830669a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/Serial-Com/build/serial-com', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Serial-Com/install/serial-com:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[0.073565] (serial-com) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o\x1b[0m\n'}
+[0.099642] (-) TimerEvent: {}
+[0.199986] (-) TimerEvent: {}
+[0.300313] (-) TimerEvent: {}
+[0.400688] (-) TimerEvent: {}
+[0.501182] (-) TimerEvent: {}
+[0.601822] (-) TimerEvent: {}
+[0.702269] (-) TimerEvent: {}
+[0.802723] (-) TimerEvent: {}
+[0.903123] (-) TimerEvent: {}
+[1.003517] (-) TimerEvent: {}
+[1.103908] (-) TimerEvent: {}
+[1.204343] (-) TimerEvent: {}
+[1.304713] (-) TimerEvent: {}
+[1.405114] (-) TimerEvent: {}
+[1.505657] (-) TimerEvent: {}
+[1.606278] (-) TimerEvent: {}
+[1.706905] (-) TimerEvent: {}
+[1.807329] (-) TimerEvent: {}
+[1.907710] (-) TimerEvent: {}
+[2.008036] (-) TimerEvent: {}
+[2.108371] (-) TimerEvent: {}
+[2.181672] (serial-com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SerialP::\x1b[01;32m\x1b[KcmdVelCallback\x1b[m\x1b[K(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.181907] (serial-com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:39:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K open\x1b[m\x1b[K(const char*, int, ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.181975] (serial-com) StderrLine: {'line': b'   39 |     int fd = \x1b[01;31m\x1b[Kopen("/dev/ttyUSB0")\x1b[m\x1b[K\n'}
+[2.182028] (serial-com) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.182080] (serial-com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:5\x1b[m\x1b[K:\n'}
+[2.182135] (serial-com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/fcntl.h:209:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.182242] (serial-com) StderrLine: {'line': b'  209 | extern int \x1b[01;36m\x1b[Kopen\x1b[m\x1b[K (const char *__file, int __oflag, ...) __nonnull ((1));\n'}
+[2.182296] (serial-com) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.182347] (serial-com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:39:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kfd\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.182400] (serial-com) StderrLine: {'line': b'   39 |     int \x1b[01;35m\x1b[Kfd\x1b[m\x1b[K = open("/dev/ttyUSB0")\n'}
+[2.182450] (serial-com) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.208546] (-) TimerEvent: {}
+[2.308890] (-) TimerEvent: {}
+[2.409224] (-) TimerEvent: {}
+[2.509698] (-) TimerEvent: {}
+[2.610267] (-) TimerEvent: {}
+[2.711004] (-) TimerEvent: {}
+[2.811430] (-) TimerEvent: {}
+[2.911796] (-) TimerEvent: {}
+[3.012200] (-) TimerEvent: {}
+[3.112541] (-) TimerEvent: {}
+[3.212909] (-) TimerEvent: {}
+[3.313248] (-) TimerEvent: {}
+[3.413663] (-) TimerEvent: {}
+[3.514180] (-) TimerEvent: {}
+[3.614764] (-) TimerEvent: {}
+[3.715368] (-) TimerEvent: {}
+[3.816019] (-) TimerEvent: {}
+[3.916588] (-) TimerEvent: {}
+[4.016973] (-) TimerEvent: {}
+[4.117357] (-) TimerEvent: {}
+[4.217802] (-) TimerEvent: {}
+[4.265027] (serial-com) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/keyboardR_SerialP.dir/build.make:76: CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o] Error 1\n'}
+[4.265495] (serial-com) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/keyboardR_SerialP.dir/all] Error 2\n'}
+[4.265794] (serial-com) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.267719] (serial-com) CommandEnded: {'returncode': 2}
+[4.278138] (serial-com) JobEnded: {'identifier': 'serial-com', 'rc': 2}
+[4.289136] (-) EventReactorShutdown: {}

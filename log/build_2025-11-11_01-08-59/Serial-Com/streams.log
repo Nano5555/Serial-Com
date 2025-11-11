@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/ubuntu/Serial-Com/build/Serial-Com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/Serial-Com -- -j16 -l16
+[0.032s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.246s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.253s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.323s] WARNING: Package name "Serial-Com" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.344s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[0.344s]   The target name "node/keyboardR_SerialP.cpp" is reserved or not valid for
+[0.344s]   certain CMake features, such as generator expressions, and may result in
+[0.344s]   undefined behavior.
+[0.344s] 
+[0.344s] [0m
+[0.359s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.359s] -- Configured cppcheck include dirs: 
+[0.359s] -- Configured cppcheck exclude dirs and/or files: 
+[0.361s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.361s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.363s] -- Added test 'lint_cmake' to check CMake code style
+[0.365s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.374s] -- Added test 'uncrustify' to check C / C++ code style
+[0.374s] -- Configured uncrustify additional arguments: 
+[0.376s] -- Added test 'xmllint' to check XML markup files
+[0.377s] -- Configuring incomplete, errors occurred!
+[0.379s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.381s] Invoked command in '/home/ubuntu/Serial-Com/build/Serial-Com' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/Serial-Com -- -j16 -l16

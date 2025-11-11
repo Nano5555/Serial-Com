@@ -1,0 +1,61 @@
+[0.016s] Invoking command in '/home/ubuntu/Serial-Com/build/serial-com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Serial-Com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Serial-Com/install/serial-com
+[0.071s] -- The C compiler identification is GNU 13.3.0
+[0.119s] -- The CXX compiler identification is GNU 13.3.0
+[0.134s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.251s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.357s] -- Detecting CXX compile features
+[0.357s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.508s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.579s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.653s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.721s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.746s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.796s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.901s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.907s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.015s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.039s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.062s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.156s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.193s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.333s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.333s] -- Configured cppcheck include dirs: 
+[1.333s] -- Configured cppcheck exclude dirs and/or files: 
+[1.338s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.338s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.345s] -- Added test 'lint_cmake' to check CMake code style
+[1.349s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.366s] -- Added test 'uncrustify' to check C / C++ code style
+[1.366s] -- Configured uncrustify additional arguments: 
+[1.370s] -- Added test 'xmllint' to check XML markup files
+[1.373s] -- Configuring done (1.3s)
+[1.388s] -- Generating done (0.0s)
+[1.393s] -- Build files have been written to: /home/ubuntu/Serial-Com/build/serial-com
+[1.404s] Invoked command in '/home/ubuntu/Serial-Com/build/serial-com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Serial-Com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Serial-Com/install/serial-com
+[1.406s] Invoking command in '/home/ubuntu/Serial-Com/build/serial-com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/serial-com -- -j16 -l16
+[1.454s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o[0m
+[8.323s] [100%] [32m[1mLinking CXX executable keyboardR_SerialP[0m
+[8.552s] [100%] Built target keyboardR_SerialP
+[8.563s] Invoked command in '/home/ubuntu/Serial-Com/build/serial-com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/serial-com -- -j16 -l16
+[8.575s] Invoking command in '/home/ubuntu/Serial-Com/build/serial-com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/serial-com
+[8.582s] -- Install configuration: ""
+[8.583s] -- Execute custom install script
+[8.585s] -- Symlinking: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/launch/keyboard.launch.py
+[8.594s] -- Symlinking: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/node/keyboardR_SerialP.cpp
+[8.603s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[8.603s]   ament_cmake_symlink_install_programs() can't find
+[8.603s]   '/home/ubuntu/Serial-Com/node/keyboardR_SerialP'
+[8.603s] Call Stack (most recent call first):
+[8.603s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_programs)
+[8.603s]   cmake_install.cmake:46 (include)
+[8.603s] 
+[8.603s] [0m
+[8.605s] Invoked command in '/home/ubuntu/Serial-Com/build/serial-com' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/serial-com

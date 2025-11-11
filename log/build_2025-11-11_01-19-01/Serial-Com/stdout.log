@@ -1,0 +1,7 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o[0m
+[100%] [32m[1mLinking CXX executable keyboardR_SerialP[0m
+[100%] Built target keyboardR_SerialP
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/launch/keyboard.launch.py
+-- Up-to-date symlink: /home/ubuntu/Serial-Com/install/Serial-Com/share/Serial-Com/node/keyboardR_SerialP.cpp

@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/Serial-Com/build/vipnav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Serial-Com -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Serial-Com/install/vipnav
+Invoked command in '/home/ubuntu/Serial-Com/build/vipnav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Serial-Com -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Serial-Com/install/vipnav
+Invoking command in '/home/ubuntu/Serial-Com/build/vipnav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/vipnav -- -j16 -l16
+Invoked command in '/home/ubuntu/Serial-Com/build/vipnav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/vipnav -- -j16 -l16
+Invoking command in '/home/ubuntu/Serial-Com/build/vipnav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/vipnav
+Invoked command in '/home/ubuntu/Serial-Com/build/vipnav' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/vipnav

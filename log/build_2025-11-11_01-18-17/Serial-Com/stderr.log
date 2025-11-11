@@ -1,0 +1,8 @@
+WARNING: Package name "Serial-Com" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:[m[K In constructor ‘[01m[KSerialP::[01;32m[KSerialP[m[K()[m[K’:
+[01m[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:20:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCmdVelKeyListener[m[K’ has not been declared
+   20 |       std::bind(&[01;31m[KCmdVelKeyListener[m[K::cmdVelCallback, this, std::placeholders::_1)
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/keyboardR_SerialP.dir/build.make:76: CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/keyboardR_SerialP.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

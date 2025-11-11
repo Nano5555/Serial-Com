@@ -1,0 +1,1 @@
+/home/ubuntu/Serial-Com/build/serial-com/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/ubuntu/Serial-Com/build/serial-com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/serial-com -- -j16 -l16
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o[0m
+[6.976s] [100%] [32m[1mLinking CXX executable keyboardR_SerialP[0m
+[7.200s] [100%] Built target keyboardR_SerialP
+[7.210s] Invoked command in '/home/ubuntu/Serial-Com/build/serial-com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/serial-com -- -j16 -l16
+[7.219s] Invoking command in '/home/ubuntu/Serial-Com/build/serial-com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/serial-com
+[7.227s] -- Install configuration: ""
+[7.228s] -- Execute custom install script
+[7.228s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/launch/keyboard.launch.py
+[7.228s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/node/keyboardR_SerialP.cpp
+[7.229s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/lib/serial-com/keyboardR_SerialP
+[7.229s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/ament_index/resource_index/package_run_dependencies/serial-com
+[7.229s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/ament_index/resource_index/parent_prefix_path/serial-com
+[7.229s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/environment/ament_prefix_path.sh
+[7.229s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/environment/ament_prefix_path.dsv
+[7.230s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/environment/path.sh
+[7.230s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/environment/path.dsv
+[7.230s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/local_setup.bash
+[7.230s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/local_setup.sh
+[7.230s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/local_setup.zsh
+[7.230s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/local_setup.dsv
+[7.230s] -- Symlinking: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/package.dsv
+[7.240s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/ament_index/resource_index/packages/serial-com
+[7.240s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/cmake/serial-comConfig.cmake
+[7.241s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/cmake/serial-comConfig-version.cmake
+[7.241s] -- Up-to-date symlink: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/package.xml
+[7.243s] Invoked command in '/home/ubuntu/Serial-Com/build/serial-com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/serial-com

@@ -1,0 +1,37 @@
+[0.012s] Invoking command in '/home/ubuntu/Serial-Com/build/Serial-Com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/Serial-Com -- -j16 -l16
+[0.036s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.244s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.260s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.365s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.673s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.682s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.832s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.862s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.885s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.027s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.097s] WARNING: Package name "Serial-Com" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.137s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.137s] -- Configured cppcheck include dirs: 
+[1.137s] -- Configured cppcheck exclude dirs and/or files: 
+[1.140s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.141s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.144s] -- Added test 'lint_cmake' to check CMake code style
+[1.147s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.160s] -- Added test 'uncrustify' to check C / C++ code style
+[1.161s] -- Configured uncrustify additional arguments: 
+[1.163s] -- Added test 'xmllint' to check XML markup files
+[1.163s] -- Configuring done (1.1s)
+[1.170s] -- Generating done (0.0s)
+[1.173s] -- Build files have been written to: /home/ubuntu/Serial-Com/build/Serial-Com
+[1.207s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o[0m
+[1.240s] [01m[K/home/ubuntu/Serial-Com/node/keyboardR_SerialP.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.240s]     4 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.241s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.241s] compilation terminated.
+[1.243s] gmake[2]: *** [CMakeFiles/keyboardR_SerialP.dir/build.make:76: CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o] Error 1
+[1.244s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/keyboardR_SerialP.dir/all] Error 2
+[1.244s] gmake: *** [Makefile:146: all] Error 2
+[1.246s] Invoked command in '/home/ubuntu/Serial-Com/build/Serial-Com' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/Serial-Com -- -j16 -l16

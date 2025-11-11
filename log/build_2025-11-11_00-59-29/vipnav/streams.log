@@ -1,0 +1,40 @@
+[0.016s] Invoking command in '/home/ubuntu/Serial-Com/build/vipnav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Serial-Com -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Serial-Com/install/vipnav
+[0.217s] -- The C compiler identification is GNU 13.3.0
+[0.329s] -- The CXX compiler identification is GNU 13.3.0
+[0.354s] -- Detecting C compiler ABI info
+[0.454s] -- Detecting C compiler ABI info - done
+[0.462s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.462s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.566s] -- Detecting CXX compiler ABI info - done
+[0.574s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.574s] -- Detecting CXX compile features
+[0.575s] -- Detecting CXX compile features - done
+[0.614s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.760s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.942s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.086s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.086s] -- Configured cppcheck include dirs: 
+[1.086s] -- Configured cppcheck exclude dirs and/or files: 
+[1.089s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.089s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.092s] -- Added test 'lint_cmake' to check CMake code style
+[1.094s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.100s] -- Added test 'uncrustify' to check C / C++ code style
+[1.100s] -- Configured uncrustify additional arguments: 
+[1.102s] -- Added test 'xmllint' to check XML markup files
+[1.106s] -- Configuring done (1.0s)
+[1.113s] -- Generating done (0.0s)
+[1.115s] -- Build files have been written to: /home/ubuntu/Serial-Com/build/vipnav
+[1.120s] Invoked command in '/home/ubuntu/Serial-Com/build/vipnav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/Serial-Com -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Serial-Com/install/vipnav
+[1.121s] Invoking command in '/home/ubuntu/Serial-Com/build/vipnav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/vipnav -- -j16 -l16
+[1.158s] Invoked command in '/home/ubuntu/Serial-Com/build/vipnav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/Serial-Com/build/vipnav -- -j16 -l16
+[1.166s] Invoking command in '/home/ubuntu/Serial-Com/build/vipnav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/vipnav
+[1.173s] -- Install configuration: ""
+[1.173s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.174s]   file INSTALL cannot find "/home/ubuntu/Serial-Com/config": No such file or
+[1.174s]   directory.
+[1.174s] 
+[1.174s] [0m
+[1.175s] Invoked command in '/home/ubuntu/Serial-Com/build/vipnav' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/Serial-Com/build/vipnav

@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000272] (serial-com) JobQueued: {'identifier': 'serial-com', 'dependencies': OrderedDict()}
+[0.000530] (serial-com) JobStarted: {'identifier': 'serial-com'}
+[0.010984] (serial-com) JobProgress: {'identifier': 'serial-com', 'progress': 'cmake'}
+[0.014937] (serial-com) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Serial-Com', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Serial-Com/install/serial-com'], 'cwd': '/home/ubuntu/Serial-Com/build/serial-com', 'env': OrderedDict({'VNCDESKTOP': '8afe9df8cb18:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-285-8afe9df8cb18-terminator-1_TIME15565918', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '8afe9df8cb18', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-txJUOUET4a,guid=d0206cd11d342d49ec2e437b69123520', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3844', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-GPOYF3', 'COLCON_PREFIX_PATH': '/home/ubuntu/Serial-Com/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/8afe9df8cb18:@/tmp/.ICE-unix/75,unix/8afe9df8cb18:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-GPOYF3/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Serial-Com/install/Serial-Com:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:34b6e52e-924e-49db-b43c-7188310b34b7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/Serial-Com/build/serial-com', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Serial-Com/install/Serial-Com:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[0.071111] (serial-com) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.097928] (-) TimerEvent: {}
+[0.119240] (serial-com) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.134690] (serial-com) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.198113] (-) TimerEvent: {}
+[0.243803] (serial-com) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.251071] (serial-com) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.251614] (serial-com) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.251969] (serial-com) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.259601] (serial-com) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.298336] (-) TimerEvent: {}
+[0.347790] (serial-com) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.356907] (serial-com) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.357762] (serial-com) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.357840] (serial-com) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.363261] (serial-com) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.398456] (-) TimerEvent: {}
+[0.498814] (-) TimerEvent: {}
+[0.508620] (serial-com) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.579635] (serial-com) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.598988] (-) TimerEvent: {}
+[0.653100] (serial-com) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.699151] (-) TimerEvent: {}
+[0.721192] (serial-com) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.746235] (serial-com) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.770332] (serial-com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.796755] (serial-com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.799314] (-) TimerEvent: {}
+[0.899656] (-) TimerEvent: {}
+[0.901260] (serial-com) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.907643] (serial-com) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.999780] (-) TimerEvent: {}
+[1.014955] (serial-com) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.038914] (serial-com) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.062680] (serial-com) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.099893] (-) TimerEvent: {}
+[1.156696] (serial-com) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.193360] (serial-com) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.200027] (-) TimerEvent: {}
+[1.300391] (-) TimerEvent: {}
+[1.332805] (serial-com) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.333274] (serial-com) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.333375] (serial-com) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.338031] (serial-com) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.338270] (serial-com) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.345337] (serial-com) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.349194] (serial-com) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.366794] (serial-com) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.367026] (serial-com) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.370902] (serial-com) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.373631] (serial-com) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.388574] (serial-com) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.393300] (serial-com) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Serial-Com/build/serial-com\n'}
+[1.400522] (-) TimerEvent: {}
+[1.404581] (serial-com) CommandEnded: {'returncode': 0}
+[1.405318] (serial-com) JobProgress: {'identifier': 'serial-com', 'progress': 'build'}
+[1.406283] (serial-com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Serial-Com/build/serial-com', '--', '-j16', '-l16'], 'cwd': '/home/ubuntu/Serial-Com/build/serial-com', 'env': OrderedDict({'VNCDESKTOP': '8afe9df8cb18:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-285-8afe9df8cb18-terminator-1_TIME15565918', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '8afe9df8cb18', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-txJUOUET4a,guid=d0206cd11d342d49ec2e437b69123520', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3844', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-GPOYF3', 'COLCON_PREFIX_PATH': '/home/ubuntu/Serial-Com/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/8afe9df8cb18:@/tmp/.ICE-unix/75,unix/8afe9df8cb18:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-GPOYF3/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Serial-Com/install/Serial-Com:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:34b6e52e-924e-49db-b43c-7188310b34b7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/Serial-Com/build/serial-com', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Serial-Com/install/Serial-Com:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[1.454720] (serial-com) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/keyboardR_SerialP.dir/node/keyboardR_SerialP.cpp.o\x1b[0m\n'}
+[1.500679] (-) TimerEvent: {}
+[1.601067] (-) TimerEvent: {}
+[1.701654] (-) TimerEvent: {}
+[1.802163] (-) TimerEvent: {}
+[1.902624] (-) TimerEvent: {}
+[2.003035] (-) TimerEvent: {}
+[2.103354] (-) TimerEvent: {}
+[2.203731] (-) TimerEvent: {}
+[2.304069] (-) TimerEvent: {}
+[2.404447] (-) TimerEvent: {}
+[2.504833] (-) TimerEvent: {}
+[2.605241] (-) TimerEvent: {}
+[2.705871] (-) TimerEvent: {}
+[2.806458] (-) TimerEvent: {}
+[2.907064] (-) TimerEvent: {}
+[3.007752] (-) TimerEvent: {}
+[3.108198] (-) TimerEvent: {}
+[3.208669] (-) TimerEvent: {}
+[3.309089] (-) TimerEvent: {}
+[3.409507] (-) TimerEvent: {}
+[3.510064] (-) TimerEvent: {}
+[3.610745] (-) TimerEvent: {}
+[3.711299] (-) TimerEvent: {}
+[3.811665] (-) TimerEvent: {}
+[3.912292] (-) TimerEvent: {}
+[4.012663] (-) TimerEvent: {}
+[4.113064] (-) TimerEvent: {}
+[4.213464] (-) TimerEvent: {}
+[4.313937] (-) TimerEvent: {}
+[4.414443] (-) TimerEvent: {}
+[4.514980] (-) TimerEvent: {}
+[4.615430] (-) TimerEvent: {}
+[4.715841] (-) TimerEvent: {}
+[4.816247] (-) TimerEvent: {}
+[4.916663] (-) TimerEvent: {}
+[5.017053] (-) TimerEvent: {}
+[5.117415] (-) TimerEvent: {}
+[5.217837] (-) TimerEvent: {}
+[5.318797] (-) TimerEvent: {}
+[5.419656] (-) TimerEvent: {}
+[5.520129] (-) TimerEvent: {}
+[5.620546] (-) TimerEvent: {}
+[5.720940] (-) TimerEvent: {}
+[5.821311] (-) TimerEvent: {}
+[5.921660] (-) TimerEvent: {}
+[6.022018] (-) TimerEvent: {}
+[6.122467] (-) TimerEvent: {}
+[6.222955] (-) TimerEvent: {}
+[6.323425] (-) TimerEvent: {}
+[6.423886] (-) TimerEvent: {}
+[6.524244] (-) TimerEvent: {}
+[6.624676] (-) TimerEvent: {}
+[6.725044] (-) TimerEvent: {}
+[6.825402] (-) TimerEvent: {}
+[6.925768] (-) TimerEvent: {}
+[7.026127] (-) TimerEvent: {}
+[7.126502] (-) TimerEvent: {}
+[7.227094] (-) TimerEvent: {}
+[7.327611] (-) TimerEvent: {}
+[7.427976] (-) TimerEvent: {}
+[7.528500] (-) TimerEvent: {}
+[7.628889] (-) TimerEvent: {}
+[7.729291] (-) TimerEvent: {}
+[7.829648] (-) TimerEvent: {}
+[7.930111] (-) TimerEvent: {}
+[8.030546] (-) TimerEvent: {}
+[8.131098] (-) TimerEvent: {}
+[8.231655] (-) TimerEvent: {}
+[8.323369] (serial-com) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable keyboardR_SerialP\x1b[0m\n'}
+[8.331805] (-) TimerEvent: {}
+[8.432286] (-) TimerEvent: {}
+[8.532791] (-) TimerEvent: {}
+[8.552414] (serial-com) StdoutLine: {'line': b'[100%] Built target keyboardR_SerialP\n'}
+[8.562885] (serial-com) CommandEnded: {'returncode': 0}
+[8.563883] (serial-com) JobProgress: {'identifier': 'serial-com', 'progress': 'install'}
+[8.574499] (serial-com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Serial-Com/build/serial-com'], 'cwd': '/home/ubuntu/Serial-Com/build/serial-com', 'env': OrderedDict({'VNCDESKTOP': '8afe9df8cb18:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-285-8afe9df8cb18-terminator-1_TIME15565918', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '8afe9df8cb18', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-txJUOUET4a,guid=d0206cd11d342d49ec2e437b69123520', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3844', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-GPOYF3', 'COLCON_PREFIX_PATH': '/home/ubuntu/Serial-Com/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/8afe9df8cb18:@/tmp/.ICE-unix/75,unix/8afe9df8cb18:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-GPOYF3/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Serial-Com/install/Serial-Com:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:34b6e52e-924e-49db-b43c-7188310b34b7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/Serial-Com/build/serial-com', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Serial-Com/install/Serial-Com:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[8.582832] (serial-com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.583146] (serial-com) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.585565] (serial-com) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/launch/keyboard.launch.py\n'}
+[8.594852] (serial-com) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Serial-Com/install/serial-com/share/serial-com/node/keyboardR_SerialP.cpp\n'}
+[8.603492] (serial-com) StderrLine: {'line': b'\x1b[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):\n'}
+[8.603726] (serial-com) StderrLine: {'line': b"  ament_cmake_symlink_install_programs() can't find\n"}
+[8.603790] (serial-com) StderrLine: {'line': b"  '/home/ubuntu/Serial-Com/node/keyboardR_SerialP'\n"}
+[8.603845] (serial-com) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.603895] (serial-com) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_programs)\n'}
+[8.603946] (serial-com) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[8.603996] (serial-com) StderrLine: {'line': b'\n'}
+[8.604045] (serial-com) StderrLine: {'line': b'\x1b[0m\n'}
+[8.604887] (serial-com) CommandEnded: {'returncode': 1}
+[8.612890] (serial-com) JobEnded: {'identifier': 'serial-com', 'rc': 1}
+[8.614303] (-) EventReactorShutdown: {}
